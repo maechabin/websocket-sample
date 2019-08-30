@@ -1,6 +1,6 @@
-let data = '';
-
 const sock = new WebSocket('ws://localhost:5001');
+
+let data = '';
 
 // 接続
 sock.addEventListener('open', e => {
